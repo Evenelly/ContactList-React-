@@ -1,0 +1,93 @@
+/*add-contacts*/
+.flex-column{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.add-contact{
+    width: 100%;
+    padding: 1% 5% 3% 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 240, 223);
+}
+
+
+
+/*contacts*/
+#contacts-div{
+    background-color: rgb(248, 240, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1%;
+    width: 28%;
+    padding: 0% 0% 2% 0%;
+}
+
+#contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-id{
+    background-color: rgb(255, 255, 255);
+    margin: 2% 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid rgb(170, 170, 170) 2px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#sort-container{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 7vw;
+}
+
+#sort{
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#drop-down{
+    position: absolute;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#sort p{
+    margin: 0;
+}
+
+.sort-option{
+    padding: 1vh 0.5vw;
+    margin: 0;  
+}
+
+.sort-option:hover{
+    background-color: rgb(194, 194, 194);
+}

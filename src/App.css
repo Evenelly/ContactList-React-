@@ -1,0 +1,14 @@
+#main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contacts-main{
+    width: 90%;
+}
+
+#top-contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
